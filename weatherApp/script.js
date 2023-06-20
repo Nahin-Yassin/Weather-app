@@ -31,7 +31,7 @@ function getWeatherData(cityName) {
 const currentIpLocation = (position) => {
     const latLong = position.coords.latitude+','+position.coords.longitude
 
-    const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${latLong}&aqi=no`
+    const apiUrl = `//api.weatherapi.com/v1/current.json?key=${apiKey}&q=${latLong}&aqi=no`
 
     const Http = new XMLHttpRequest();
     Http.open("GET", apiUrl);
