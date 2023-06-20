@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-body {
+section {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -84,7 +84,16 @@ form input {
     color: #fff;
 }
 
-
+p.copyright {
+    position: absolute;
+    bottom: 6px;
+    text-align: center;
+    color: #b8b8b8;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 13px;
+}
 
 @media only screen and (max-width: 600px) {
 
