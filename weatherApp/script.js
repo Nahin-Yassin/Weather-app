@@ -4,7 +4,7 @@ const apiKey = `3cafaa59f1bb4719ba983312232006`;
 
 
 function getWeatherData(cityName) {
-    const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityName}&aqi=no`
+    const apiUrl = `//api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityName}&aqi=no`
     
     const Http = new XMLHttpRequest();
     Http.open("GET", apiUrl);
